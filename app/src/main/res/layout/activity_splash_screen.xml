@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Splash_Screen">
+
+   <ImageView
+       android:id="@+id/imgLogo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/logo"
+       android:layout_marginTop="185dp"
+       android:layout_marginStart="90dp"
+
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/yeonsung_regular"
+        android:text="Waves of Food"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliver Best Food"
+        android:fontFamily="@font/lato_light"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="115dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quality Matters !"
+        android:fontFamily="@font/lato_regular"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="74dp"
+        android:textSize="28sp"
+        android:textColor="#15BE77"
+        />
+
+</LinearLayout>
